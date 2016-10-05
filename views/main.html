@@ -1,0 +1,118 @@
+<!-- Navigation button -->
+<button id="nav-button" class="button-animation" ng-click="toggle()" ng-class="{clicked: state}">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+<!-- Navigation menu -->
+<nav id="nav-menu" class="nav-menu-animation" ng-show="toggled" ng-cloak>
+  <ul>
+    <li><a ng-click="scroll('home')">home</a></li>
+    <li><a ng-click="scroll('about')">about</a></li>
+    <li><a ng-click="scroll('work')">work</a></li>
+    <li><a ng-click="scroll('contact')">contact</a></li>
+  </ul>
+</nav>
+
+<div id="dimmer"></div>
+
+<div>
+  <!-- Home section -->
+  <section id="home" data-stellar-background-ratio="0.5">
+    <div class="content" data-stellar-ratio="0.5">
+      <div id="me">
+        <h1>Anthony Li</h1>
+        <h2>developer | musician | computer enthusiast<h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section id="about">
+    <div class="content">
+      <div id="description">
+        <h1>Something About Me</h1>
+
+        <div id="quote">
+          "Anyone who stops learning is old, whether at twenty or eighty. Anyone
+          who keeps learning stays young. The greatest thing in life is to keep
+          your mind young."
+
+          <div id="inspirer">
+            — Henry Ford
+          </div>
+        </div>
+
+        <p>
+          I am a developer who is extremely passionate about building things.
+          I always like to keep myself occupied, whether it's creating an
+          application, tinkering with computers, or playing along with some of
+          my favorite tunes. I see technology as the driving force behind
+          everything in the world.
+        </p>
+      </div>
+
+      <div id="selfPhoto">
+        <img src="public/images/self.jpg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Work section -->
+  <section id="work">
+    <div class="content">
+      <div id="work-header">
+        <div id="work-header-info">
+          <h1>What I've Done</h1>
+          <p>
+            from simple scripts to sophisticated front end and back end
+            development
+          </p>
+        </div>
+      </div>
+
+      <div ng-controller="WorkCtrl">
+        <div ng-repeat="piece in work | orderBy: '-'">
+          <div class="cell col-md-4">
+            <a ng-href={{piece.url}} target="_{{piece.url}}">
+              <div class="info">
+                <h1>{{piece.name}}</h1>
+                <p>{{piece.summary}}</p>
+                <p>{{piece.tech}}</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact">
+    <div class="content">
+      <h1>Hear From Me</h1>
+      <ul>
+        <!-- Email -->
+        <li>
+          <a href="mailto:apli@umass.edu" class="fa fa-envelope fa-style"></a>
+          <a href="mailto:apli@umass.edu">Email</a>
+        </li>
+        <!-- Resume -->
+        <li>
+          <a href="other/resume_Anthony_Li.pdf" target="_resume" class="fa fa-file-pdf-o fa-style"></a>
+          <a href="other/resume_Anthony_Li.pdf" target="_resume">Resume</a>
+        </li>
+        <!-- GitHub -->
+        <li>
+          <a href="https://goo.gl/KyXJvA" target="_github" class="fa fa-github fa-style"></a>
+          <a href="https://goo.gl/KyXJvA" target="_github">GitHub</a>
+        </li>
+        <!-- LinkedIn -->
+        <li>
+          <a href="https://goo.gl/Us2Nqu" target="_linkedin" class="fa fa-linkedin-square fa-style"></a>
+          <a href="https://goo.gl/Us2Nqu" target="_linkedin">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
