@@ -22213,7 +22213,7 @@
 	            {
 	              id: 'logo',
 	              onClick: function onClick() {
-	                return _this3.scrollTo('home');
+	                return _this3.scrollTo('home', 60);
 	              }
 	            },
 	            _react2.default.createElement('img', {
