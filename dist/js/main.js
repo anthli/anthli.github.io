@@ -21599,7 +21599,7 @@
 /* 180 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -21629,113 +21629,113 @@
 	  }
 
 	  _createClass(About, [{
-	    key: "render",
+	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        "section",
-	        { id: "about" },
+	        'section',
+	        { id: 'about' },
 	        _react2.default.createElement(
-	          "div",
-	          { className: "section-content" },
-	          _react2.default.createElement("img", { id: "about-photo", src: "public/img/me.png", alt: "me.png" }),
+	          'div',
+	          { className: 'section-content' },
+	          _react2.default.createElement('img', { id: 'about-photo', src: 'public/img/me.png', alt: 'me.png' }),
 	          _react2.default.createElement(
-	            "div",
-	            { id: "about-quote" },
-	            "\"Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. The greatest thing in life is to keep your mind young.\"",
+	            'div',
+	            { id: 'about-quote' },
+	            '"Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. The greatest thing in life is to keep your mind young."',
 	            _react2.default.createElement(
-	              "div",
+	              'div',
 	              null,
-	              "\u2014 Henry Ford"
+	              '\u2014 Henry Ford'
 	            )
 	          ),
 	          _react2.default.createElement(
-	            "div",
-	            { id: "about-body" },
-	            "I am currently a senior at the University of Massachusetts Amherst studying computer science. I have a passion for learning new technologies and building things, especially from scratch. Whether it's for work or for fun, coding is something I love doing.",
-	            _react2.default.createElement("br", null),
-	            _react2.default.createElement("br", null),
-	            "My passion stems from tinkering with computers at the age of twelve. To satisfy my curiosity, I self-taught myself how to take apart and reassemble a computer. This motivated me to learn how to build computers from the ground up.",
-	            _react2.default.createElement("br", null),
-	            _react2.default.createElement("br", null),
-	            "Now, I see myself as a computer enthusiast always trying to build and maintain a rig with the latest hardware. Recently, I have picked up on building custom mechanical keyboards. I truly enjoy being able to build things and facing the challenges that come from it."
+	            'div',
+	            { id: 'about-body' },
+	            'I am currently a senior at the University of Massachusetts Amherst studying computer science. I have a passion for learning new technologies and building things, especially from scratch. Whether it\'s for work or for fun, coding is something I love doing.',
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement('br', null),
+	            'My passion stems from tinkering with computers at the age of twelve. To satisfy my curiosity, I self-taught myself how to take apart and reassemble a computer. This motivated me to learn how to build computers from the ground up.',
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement('br', null),
+	            'Now, I see myself as a computer enthusiast always trying to build and maintain a rig with the latest hardware. Recently, I have picked up on building custom mechanical keyboards. I truly enjoy being able to build things and facing the challenges that come from it.'
 	          ),
 	          _react2.default.createElement(
-	            "div",
-	            { id: "about-skills" },
+	            'div',
+	            { id: 'about-skills' },
 	            _react2.default.createElement(
-	              "div",
-	              { className: "about-content" },
+	              'div',
+	              { className: 'about-content' },
 	              _react2.default.createElement(
-	                "div",
-	                { className: "about-content-icon" },
-	                _react2.default.createElement("i", { className: "fa fa-code" })
+	                'div',
+	                { className: 'about-content-icon' },
+	                _react2.default.createElement('i', { className: 'fa fa-code' })
 	              ),
 	              _react2.default.createElement(
-	                "div",
-	                { className: "about-content-title" },
-	                "Programming Languages"
+	                'div',
+	                { className: 'about-content-title' },
+	                'Programming Languages'
 	              ),
 	              _react2.default.createElement(
-	                "div",
-	                { className: "about-content-body" },
-	                "Scala, JavaScript, Java, Go, C#, Python, HTML5, CSS3"
+	                'div',
+	                { className: 'about-content-body' },
+	                'Scala, JavaScript, Java, Go, C#, Python, HTML5, CSS3'
 	              )
 	            ),
 	            _react2.default.createElement(
-	              "div",
-	              { className: "about-content" },
+	              'div',
+	              { className: 'about-content' },
 	              _react2.default.createElement(
-	                "div",
-	                { className: "about-content-icon" },
-	                _react2.default.createElement("i", { className: "fa fa-cogs" })
+	                'div',
+	                { className: 'about-content-icon' },
+	                _react2.default.createElement('i', { className: 'fa fa-cogs' })
 	              ),
 	              _react2.default.createElement(
-	                "div",
-	                { className: "about-content-title" },
-	                "Technologies"
+	                'div',
+	                { className: 'about-content-title' },
+	                'Technologies'
 	              ),
 	              _react2.default.createElement(
-	                "div",
-	                { className: "about-content-body" },
-	                "Akka, AngularJS, Electron, Git, Ionic, Heroku, jQuery, MySQL, MongoDB, Node.js, Play, PostgreSQL, React"
+	                'div',
+	                { className: 'about-content-body' },
+	                'Akka, AngularJS, Electron, Git, Ionic, Heroku, jQuery, MySQL, MongoDB, Node.js, Play, PostgreSQL, React'
 	              )
 	            )
 	          ),
 	          _react2.default.createElement(
-	            "div",
-	            { id: "about-work" },
+	            'div',
+	            { id: 'about-work' },
 	            _react2.default.createElement(
-	              "div",
-	              { className: "about-content-icon" },
-	              _react2.default.createElement("i", { className: "fa fa-briefcase" })
+	              'div',
+	              { className: 'about-content-icon' },
+	              _react2.default.createElement('i', { className: 'fa fa-briefcase' })
 	            ),
 	            _react2.default.createElement(
-	              "div",
-	              { className: "about-content-title" },
-	              "Work Experience"
+	              'div',
+	              { className: 'about-content-title' },
+	              'Work Experience'
 	            ),
 	            _react2.default.createElement(
-	              "div",
-	              { className: "about-content-body" },
-	              "UMass Amherst Libraries ",
-	              _react2.default.createElement("br", null),
-	              "Circulation/Reserves Student Assistant ",
-	              _react2.default.createElement("br", null),
-	              "Sept 2015 - Current",
-	              _react2.default.createElement("br", null),
-	              _react2.default.createElement("br", null),
-	              "Charles River Development ",
-	              _react2.default.createElement("br", null),
-	              "Software Engineer Intern ",
-	              _react2.default.createElement("br", null),
-	              "June 2016 - Aug 2016",
-	              _react2.default.createElement("br", null),
-	              _react2.default.createElement("br", null),
-	              "MarketMuse ",
-	              _react2.default.createElement("br", null),
-	              "Software Engineer Intern ",
-	              _react2.default.createElement("br", null),
-	              "May 2015 - Aug 2015"
+	              'div',
+	              { className: 'about-content-body' },
+	              'UMass Amherst Libraries ',
+	              _react2.default.createElement('br', null),
+	              'Circulation/Reserves Student Assistant ',
+	              _react2.default.createElement('br', null),
+	              'Sept 2015 - Current',
+	              _react2.default.createElement('br', null),
+	              _react2.default.createElement('br', null),
+	              'Charles River Development ',
+	              _react2.default.createElement('br', null),
+	              'Software Engineer Intern ',
+	              _react2.default.createElement('br', null),
+	              'June 2016 - Aug 2016',
+	              _react2.default.createElement('br', null),
+	              _react2.default.createElement('br', null),
+	              'MarketMuse ',
+	              _react2.default.createElement('br', null),
+	              'Software Engineer Intern ',
+	              _react2.default.createElement('br', null),
+	              'May 2015 - Aug 2015'
 	            )
 	          )
 	        )
@@ -21752,7 +21752,7 @@
 /* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -21782,85 +21782,85 @@
 	  }
 
 	  _createClass(Contact, [{
-	    key: "render",
+	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        "section",
-	        { id: "contact" },
+	        'section',
+	        { id: 'contact' },
 	        _react2.default.createElement(
-	          "div",
-	          { className: "section-content" },
+	          'div',
+	          { className: 'section-content' },
 	          _react2.default.createElement(
-	            "ul",
-	            { id: "contact-list" },
+	            'ul',
+	            { id: 'contact-list' },
 	            _react2.default.createElement(
-	              "li",
+	              'li',
 	              null,
-	              _react2.default.createElement("a", {
-	                className: "contact-content-icon fa fa-envelope",
-	                href: "mailto:apli@umass.edu"
+	              _react2.default.createElement('a', {
+	                className: 'contact-content-icon fa fa-envelope',
+	                href: 'mailto:apli@umass.edu'
 	              }),
 	              _react2.default.createElement(
-	                "a",
+	                'a',
 	                {
-	                  className: "contact-content-body",
-	                  href: "mailto:apli@umass.edu"
+	                  className: 'contact-content-body',
+	                  href: 'mailto:apli@umass.edu'
 	                },
-	                "Email"
+	                'Email'
 	              )
 	            ),
 	            _react2.default.createElement(
-	              "li",
+	              'li',
 	              null,
-	              _react2.default.createElement("a", {
-	                className: "contact-content-icon fa fa-file-pdf-o",
-	                href: "public/resume/resume-Anthony-Li.pdf",
-	                target: "_resume"
+	              _react2.default.createElement('a', {
+	                className: 'contact-content-icon fa fa-file-pdf-o',
+	                href: 'public/resume/resume-Anthony-Li.pdf',
+	                target: '_resume'
 	              }),
 	              _react2.default.createElement(
-	                "a",
+	                'a',
 	                {
-	                  className: "contact-content-body",
-	                  href: "public/resume/resume-Anthony-Li.pdf",
-	                  target: "_resume"
+	                  className: 'contact-content-body',
+	                  href: 'public/resume/resume-Anthony-Li.pdf',
+	                  target: '_resume'
 	                },
-	                "Resume"
+	                'Resume'
 	              )
 	            ),
 	            _react2.default.createElement(
-	              "li",
+	              'li',
 	              null,
-	              _react2.default.createElement("a", {
-	                className: "contact-content-icon fa fa-github",
-	                href: "https://goo.gl/KyXJvA",
-	                target: "_github"
+	              _react2.default.createElement('a', {
+	                className: 'contact-content-icon fa fa-github',
+	                href: 'https://goo.gl/KyXJvA',
+	                target: '_github'
 	              }),
 	              _react2.default.createElement(
-	                "a",
+	                'a',
 	                {
-	                  className: "contact-content-body",
-	                  href: "https://goo.gl/KyXJvA",
-	                  target: "_github"
+	                  className: 'contact-content-body',
+	                  href: 'https://goo.gl/KyXJvA',
+	                  target: '_github'
 	                },
-	                "GitHub"
+	                'GitHub'
 	              )
 	            ),
 	            _react2.default.createElement(
-	              "li",
+	              'li',
 	              null,
-	              _react2.default.createElement("a", {
-	                className: "contact-content-icon fa fa-linkedin-square",
-	                href: "https://goo.gl/Us2Nqu",
-	                target: "_linkedin"
+	              _react2.default.createElement('a', {
+	                className: 'contact-content-icon fa fa-linkedin-square',
+	                href: 'https://goo.gl/Us2Nqu',
+	                target: '_linkedin'
 	              }),
 	              _react2.default.createElement(
-	                "a",
+	                'a',
 	                {
-	                  className: "contact-content-body",
-	                  href: "https://goo.gl/Us2Nqu",
-	                  target: "_linkedin"
+	                  className: 'contact-content-body',
+	                  href: 'https://goo.gl/Us2Nqu',
+	                  target: '_linkedin'
 	                },
-	                "LinkedIn"
+	                'LinkedIn'
 	              )
 	            )
 	          )
@@ -21878,7 +21878,7 @@
 /* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -21908,18 +21908,18 @@
 	  }
 
 	  _createClass(About, [{
-	    key: "render",
+	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        "section",
-	        { id: "home" },
+	        'section',
+	        { id: 'home' },
 	        _react2.default.createElement(
-	          "div",
-	          { className: "section-content" },
+	          'div',
+	          { className: 'section-content' },
 	          _react2.default.createElement(
-	            "div",
-	            { id: "home-tagline" },
-	            "software engineer // musician // computer enthusiast"
+	            'div',
+	            { id: 'home-tagline' },
+	            'software engineer // musician // computer enthusiast'
 	          )
 	        )
 	      );
@@ -21979,7 +21979,7 @@
 	        description: '\n            A cross platform clipboard manager that makes it easy to access and\n            maintain clipboard history\n          ',
 	        stack: 'Electron / AngularJS / SQLite',
 	        url: 'https://goo.gl/0Eu2ah',
-	        backgroundColor: '#58de84'
+	        backgroundColor: '#0080ff'
 	      }, {
 	        title: 'Google URL Shortener Desktop',
 	        description: '\n            Bringing the Google URL Shortener to the Windows desktop\n          ',
