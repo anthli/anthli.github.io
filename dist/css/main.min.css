@@ -2,7 +2,7 @@
 
 #contact{height:250px}#contact .section-content{align-items:center;display:flex;flex-direction:column;padding:0 45px}#contact-list{display:flex;margin-top:45px}.contact-item{align-items:center;display:flex;flex-direction:column;margin:0 45px}[class^="contact-content-"]{color:#373737;display:flex !important;font-size:32px;justify-content:center;text-decoration:none;width:100%;transition:all ease-out 300ms}.contact-content-icon{padding-bottom:5px}.contact-content-caption{font-size:18px}.contact-item:hover a{color:#009bff;transition:all ease-out 300ms}@media (max-width: 768px){#contact{height:initial}#contact-list{flex-direction:column;margin-top:0px}.contact-item:not(:first-child){margin-top:30px}}
 
-#home{height:100%}#home .section-content{align-items:center;display:flex;flex-direction:column;height:100%;justify-content:center;padding:0 45px;text-align:center}#name{color:#009bff;font-size:72px;margin:20px 0}#home-tagline{color:#373737;font-size:24px;letter-spacing:2px}@media (max-width: 768px){#name{font-size:36px}#home-tagline{font-size:18px}}
+#home{height:100%}#home .section-content{align-items:center;display:flex;flex-direction:column;height:calc(100% - 60px);justify-content:center;padding:0 45px;text-align:center}#name{color:#009bff;font-size:72px;margin:20px 0}#home-tagline{color:#373737;font-size:24px;letter-spacing:2px}@media (max-width: 768px){#name{font-size:36px}#home-tagline{font-size:18px}}
 
 /*!
  * Font Awesome Pro 5.0.2 by @fontawesome - http://fontawesome.com
