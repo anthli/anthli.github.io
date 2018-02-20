@@ -19437,7 +19437,7 @@ var About = function (_Component) {
               _react2.default.createElement(
                 'div',
                 { className: 'about-content-icon' },
-                _react2.default.createElement('i', { className: 'fal fa-code' })
+                _react2.default.createElement('i', { className: 'fas fa-code' })
               ),
               _react2.default.createElement(
                 'div',
@@ -19456,7 +19456,7 @@ var About = function (_Component) {
               _react2.default.createElement(
                 'div',
                 { className: 'about-content-icon' },
-                _react2.default.createElement('i', { className: 'fal fa-cogs' })
+                _react2.default.createElement('i', { className: 'fas fa-cogs' })
               ),
               _react2.default.createElement(
                 'div',
@@ -19476,7 +19476,7 @@ var About = function (_Component) {
             _react2.default.createElement(
               'div',
               { className: 'about-content-icon' },
-              _react2.default.createElement('i', { className: 'fal fa-briefcase' })
+              _react2.default.createElement('i', { className: 'fas fa-briefcase' })
             ),
             _react2.default.createElement(
               'div',
@@ -19562,12 +19562,12 @@ var Contact = function (_Component) {
     var _this = _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this, props));
 
     _this.contactItems = [{
-      iconClassName: 'contact-content-icon fal fa-envelope',
+      iconClassName: 'contact-content-icon fas fa-envelope',
       caption: 'Email',
       url: 'mailto:me@anthli.com',
       target: '_email'
     }, {
-      iconClassName: 'contact-content-icon fal fa-file-pdf',
+      iconClassName: 'contact-content-icon fas fa-file-pdf',
       caption: 'Resume',
       url: 'public/resume/resume-Anthony-Li.pdf',
       target: '_resume'
